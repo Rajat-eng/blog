@@ -11,3 +11,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+#blog-by {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+.post-detail h1 {
+  text-align: center;
+}
+
+.create-post h1 {
+  text-align: center;
+}
+.create-post .form-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+.create-post .form-field label {
+  margin-bottom: 9px;
+}
+.create-post .form-field input {
+  height: 37px;
+  border: 1px solid #e1e1e1;
+  border-radius: 3px;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.create-post .form-field textarea {
+  border: 1px solid #e1e1e1;
+  height: 400px;
+  font-size: 18px;
+  padding-left: 10px;
+  border-radius: 3px;
+  padding-top: 5px;
+}
+
